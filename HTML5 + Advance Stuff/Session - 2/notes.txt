@@ -1,0 +1,144 @@
+HTML -> stands for Hyper text Markup Language.
+- Current version of HTML is HTML 5.0
+- HTML is used to develop static web pages.
+- we will apply styles to the webpages by using css.
+    Ex:
+        Colors 
+        backgrounds
+        Margins
+        Paddings
+        ------
+        ------
+
+- CSS stands for cascading style sheet.
+- Current version of CSS is CSS 3.0
+- we will make dynamic web pages with the help of JavaScript.
+- HTML 5.x supports API's so HTML 5.x success in market.
+    => Semantic Elements
+        Ex.
+            header 
+            main
+            footer
+            aside
+            nav
+            audio
+            video 
+
+    => Web Socket API
+    => Location API 
+    => Web Worker API 
+    => Canvas API 
+    => SVG API 
+        ----------------
+        ----------------
+        ----------------
+    
+
+- we will save the HTML files with ".html" or ".html" extension.
+
+- we will execute web pages (HTML files) with the help of browsers.
+
+
+- Visual Studio code is Suggestible IDE to BUild the webpages.
+
+- Visual Studio code also called as VS Code and Given by Microsoft.
+
+- VSCode IDE is Open Source IDE.
+
+Structure of webpage
+--------------------
+
+DOCTYPE 
+
+ROOT ELEMENT 
+    
+    HEAD SECTION
+
+    BODY SECTION
+
+DOCTYPE Representing the Version of HTML.
+Ex.
+    <!DOCTYPE html> ------ HTML5 version 
+
+
+<html> </html> tag, Representing Root Element
+
+<head></head> tag, used to represent the header section.
+
+<body></body> tag, used to represent the body section.
+
+Ex.
+***
+
+<!DOCTYPE html>
+<html>
+    <head>
+        // META DATA
+        // Data about webpage  
+        // Author of webpage 
+        // description of webpage
+
+        <title></title>
+        <style></style>
+        <link></link>
+        <script></script>
+    </head>
+    <body>
+        // main content
+        // Ex. images, tables, audio, video,....
+
+    </body>
+</html>
+
+
+
+
+
+Semantic Elements
+-----------------
+    - HTML5 provides the semantic Elements.
+
+    - Because of semantic elements Readability of web pages increases.
+
+1) header 
+
+2) main 
+
+3) footer
+
+4) aside 
+
+5) nav 
+
+6) article
+
+7) section
+
+8) audio 
+
+9) video 
+
+---------
+
+
+Ex1.
+***
+
+header , main , footer
+**********************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+HTML
+----
+to build static web pages.
+current version of HTML is HTML5.
+HTML 1.0
+HTML 2.0
+HTML 3.2
+HTML 4.0
+XHTML 
+HTML 5.0 (2008) -> success in market
+Reason - it supports API
+API 
+---
+Web Socket
+Web Worker
+Storages
+Drag and Drop
+Location
+
+HTML 5.0
+---------
+
+1) Semantic Elements
+    clear cut meaning tags
+    the tag contain clear cut meaning/description.
+    => header
+    => main 
+    => footer
+    => section
+    => audio
+    => video
+
+    -----
+    -----
+    -----
+2) Storages
+    => LocalStorage
+        if i close the browser data never be lost
+    => Session Storage 
+        if i close the browser data will be lost 
+
+3) Cookies
+
+4) Web Socket API 
+    => Chat Application
+
+5) Web Worker API 
+    => for multithreading
+
+6) Drag and Drop API 
+
+7) Location API 
+    EG=> Google Maps 
+
+            ---------
+            ---------
+            ---------
+8) Forms
+
+9) Animations
+
+10) Canvas & SVG
+
+
+CSS 3.0
+*******
+    Apply styles to the web pages.
+    current version of CSS is CSS 3.0
+    Imp Concept
+    1) Flex Box -> Arrangement of element with resp of x direction or y direction.to move you element anywhere in flexible way.
+
+    2) Grid Box
+    3) Responsive web Design 
+        -> Execution of web pages in diff-2 devices.
+        -> known as RWD
+        => for that we have to use Media Queries.
+    4) Dimensions
+        px
+        em 
+        rem 
+        vh 
+        percentages
+    5) Colors, background-colors,..............
+

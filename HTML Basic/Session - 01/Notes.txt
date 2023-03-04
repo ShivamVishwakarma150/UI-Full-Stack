@@ -1,0 +1,62 @@
+UI - Full stack Web Development
+
+                        Front-End
+                       ------------
+
+- Introduction to Web
+- HTML 4/5
+- CSS  3/4
+- JavaScript ES5, ES6, ES7 [ECMA Script 6,7,8] 2021
+- Sass imp for CSS
+- JQuery
+- Introduction to ReactJS
+- Introduction to Angular with TypeScript
+-------------------------------------------------------------
+            
+                        Back-End 
+                       -----------
+
+- MongoDB Database 
+- Introduction to MySql Database
+- Node.Server side Scripting
+- Express Middleware
+
+
+Which fullstack to learn?
+------------------------
+
+- Full stack web Development
+        HTML,CSS,Bootstrap, JavaScript, Sass, JQuery,
+        Node.js, MongoDB, Express
+
+- Java full stack
+        HTML,CSS,Bootstrap, JavaScript, Sass, JQuery,
+        Java, [Core,Adv,JSP,Spring]
+
+- .NET Full stack 
+    HTML,CSS,Bootstrap, JavaScript, Sass, JQuery
+    C#,ASP.NET,MVC,Web API
+
+What is difference between MEAN, MERN stack and fullstack?
+
+MEAN 
+    M       - MongoDB       - Database
+    E       - Express       - Middleware
+    A       - Angular       - Client side
+    N       - Node.js       - Server Side
+
+MERN 
+    R       - React JS 
+
+Full Stack 
+    - Front End 
+    - Back End 
+
+What is difference between UI and UX?
+User Experience [Angular,React]
+
+UI - User Interface 
+    HTML,CSS,Bootstrap, JavaScript, Sass, JQuery
+UX - User Experience
+    Angular, React, Vue, BackBone, Knockout
+

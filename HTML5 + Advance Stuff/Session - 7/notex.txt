@@ -1,0 +1,45 @@
+Storage API
+-----------
+
+Storages
+    - HTML5, supports Storages API.
+
+    1) Local Storage 
+    *****************
+        - Whenever we close the browser or open the new tab, we won't loss the data.
+        - Capacity 5MB
+        - 
+
+    2) Session Storage 
+    *******************
+        - Whenever we close the browser or open the new tab we can't see the previous data.
+        - Based on system memory. Depending on your hardware configuration.
+
+
+
+window is the predefined object provided by javascript by using window object only we can access both local Storage and Session Storage.
+
+Ex. 
+    window.localStorage
+
+    window.sessionStorage
+
+syntax
+------
+
+<script>
+    window.localStorage
+
+    window.sessionStorage
+</script>
+
+
+API
+***
+
+1) setItem() -> is used to store the data.
+    we can store the data in form of key value pairs.
+
+2) getItem() -> used to read the data 
+
+3) removeItem() -> used to delete the data Based on key 

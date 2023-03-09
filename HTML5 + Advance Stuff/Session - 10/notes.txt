@@ -1,0 +1,40 @@
+WebWorker is used for creating multithreading.
+
+postMessage() -> to send data from one thread to another thread.
+
+onMessage() -> it reads data from thread body.
+
+add.js 
+------
+
+this.onmessage = function(e){
+    if(e.data!=undefined){
+        this.postMessage(e.data.num1+e.data.num2);
+    }
+}
+
+
+
+<script>
+if(window.Worker){ // for checking multithreading supported in browser or not
+    let addThread = new Worker("add.js");
+    let subThread = new Worker("sub.js");
+    let mulThread = new Worker("mul.js");
+    let divThread = new Worker("div.js");
+
+    addThread.postMessage({num1:10,num2:20});
+    addThread.onmessage = function(e){
+        subThread.postMessage({num1:e.data,num2:10});
+        subThread.onmessage = function(e){
+            mulThread.postMessage({num1:e.data});
+            mulThread.onmessage = function(e){
+                divThread.postMessage({num1:e.data});
+                divThread.onmessage = function(e){
+                    console.log(e.data);
+                }
+            }
+        }
+    }
+
+}
+</script>

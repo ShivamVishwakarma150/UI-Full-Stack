@@ -1,0 +1,18 @@
+<script>
+  if (window.Worker) {
+    // if it is true then we confirmed that multithreading supported in browser
+    let addThread = new Worker("add.js");
+    let subThread = new Worker("sub.js");
+    addThread.postMessage({ arg1: 10, arg2: 20 });
+    addThread.onmessage = function (e) {
+      const { data } = e;
+      subThread.postMessage({ arg1: data.addResult, arg2: 10 });
+      subThread.onmessage = function (e) {
+        const { data } = e;
+        console.log(data.subRes);
+      };
+    };
+  } else {
+    console.log("Your browser not supporting webWorker");
+  }
+</script>

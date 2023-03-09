@@ -1,4 +1,4 @@
-WebWorker is used for creating multithreading.
+WebWorker is used for creating multi processes.
 
 postMessage() -> to send data from one thread to another thread.
 

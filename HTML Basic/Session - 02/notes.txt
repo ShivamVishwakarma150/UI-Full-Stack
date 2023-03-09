@@ -1,0 +1,65 @@
+Types of software Applications
+------------------------------
+1) Desktop Applications
+2) Web Applications [Internet] Ex: IRCTC, Amazon
+3) Distributed Applications 
+4) AI Applications
+5) IoT Applications
+6) Mobile Applications
+7) 2D and 3D Gaming Applications
+
+
+Our Target
+----------
+Web Applications
+Distributed Applications
+
+
+                    Web Applications
+                    ----------------
+1. What is network?
+- Computer network comprises of group of Computers connecting with each other for sharing of information.
+- 1960's ARPANET - US DOD
+    Advanced Research Projects Agency Network
+
+Internet
+- It is a wide area network that can connect Computers all over the worlds.
+    a) LAN b)MAN c) WAN
+
+
+Web 
+- In early 1990's "Tim Berners Lee" introduced to concept of web.
+- Web is a portion of internet with restricted access.
+- Web Application have
+    a) Anonymous User  - Without signIn using Amazon 
+    b) Authorized User  - After SignIn using Amazon
+- Tim Berners Lee introduced language HTML
+    Hyper Text Markup Language
+    Hyper - Beyond
+    Text  - Hyper Text means has the document which shows you content beyond you see.
+    Markup - Marking up - preparing for presentation
+
+CERN Labs 
+GML Generic Markup language.
+SGML Standard Generic Markup Language.
+HTML is a presentation language.
+
+HTML 1990 v1.0
+IETF [Internet Engineering task Force] 3.2
+
+- HTML Is Superset To SGML.
+
+- IETF [Internet Engineering Task Force] Took The
+Responsibility Of Developing Html.
+
+- W3C [World Wide Web Consortium] And WHATWG [Web
+Hypertext Application Technology Working Group]
+Maintained Standard Of Html And Developed Further
+Versions. 2004 v4.0 onwards Till Now.
+
+                    Web Server
+                    ----------
+Handling the request from client process that request and send a response.
+this work is Maintained by different computers.
+
+

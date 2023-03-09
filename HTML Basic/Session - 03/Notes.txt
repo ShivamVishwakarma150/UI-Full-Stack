@@ -1,0 +1,89 @@
+Entire software Development happen on 4 servers.
+
+1)SandBox -> Repository -> Here all library files are stored.
+
+2)Development -> Build App 
+3)Quality -> Build App -> Testing Done in Quality Server
+4)Production Server -> Client are access Production server for using it. Refer notes.PNG 
+
+
+
+Resume 
+------
+3+ Years Exp
+
+Project-A : 2019 - 2020
+Architecture: 3 Tier Application
+Role: UI Layer, BL, Data Layer
+
+Data Layer 
+    - Create Database
+    - Tables
+    - Queries
+Data Tier
+    - Backup
+
+
+Full Stack Developer 
+---------------------
+- UI Layer 
+    HTML, CSS, Bootstrap, JQuery, JavaScript
+- Business Layer 
+    Node.js, Express, API, Services
+- Data Layer
+    MongoDB, MySql
+
+We have to keep our application on server.
+
+Web Server 
+==========
+- Local Web Server 
+    - Installed on your PC 
+    - host your application and test 
+        IIS 
+        Tomcat
+        XAMP 
+        Lighttpd 
+
+- Cloud Server 
+    - Firebase
+    - Mongo 
+    - AWS
+    - Azure
+
+In Windows We Have By Default a Server Called IIS 
+Web Server - IIS - Internet Information Services Manager
+
+Locate Web Server on your Windows PC:
+- Open window control panel
+- Switch to "Large Icons"
+- Administrative Tools
+- Look for "Internet Information Services Manager"
+
+Test Web Server 
+----------------
+- Open any Browser : IE, Edge, Chrome, Firefox, Safari
+- Address:
+    http://127.0.0.1
+        or 
+    http://localhost
+
+
+
+What is a Web Site?
+- Website is a virtual directory that provide access to the resources on server.
+
+        Site = Location = drive and directory
+        Web  = Location on web server
+    alias : Netflix http://localhost/netflix           
+                        virtual path 
+                    http://127.0.0.1/netflix 
+    physical path: C:\netflix 
+
+Creating Website is all about adding virtual directory.
+
+- Web Page is used for accessing resources via UI pages because no one can easily remember address of exact resources.
+
+
+
+

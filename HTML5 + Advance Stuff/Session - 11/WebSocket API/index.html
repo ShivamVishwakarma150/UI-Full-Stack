@@ -1,0 +1,15 @@
+<article id="msg"></article>
+<script>
+    let socket = new WebSocket("ws://localhost:8081");
+
+    socket.onopen = function(){
+        socket.send("Welcome TO India")
+    }
+    socket.onmessage = function(msgs){
+        document.getElementById("msg").innerHTML+=msgs.data+"<br>";
+    }
+
+    socket.onerror = function(err){
+        console.log("Error.....!");
+    }
+</script>

@@ -1,0 +1,9 @@
+WebSocket API 
+-------------
+
+For implement chatting Application. 
+1) first we have to prepare chat server using WebSocket API.
+        To create chat server we need to use backend technology.
+        we can use : Java, DotNet, NodeJS
+Here we are using NodeJS.
+to implement chatting application we need websocket library.

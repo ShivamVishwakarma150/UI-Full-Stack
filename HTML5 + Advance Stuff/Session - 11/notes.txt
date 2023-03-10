@@ -7,3 +7,27 @@ For implement chatting Application.
         we can use : Java, DotNet, NodeJS
 Here we are using NodeJS.
 to implement chatting application we need websocket library.
+
+
+
+Web Socket API 
+**************
+        - Web socket API provided by HTML 5.0
+        - Web Socket API, used to build the chat Applications.
+        
+        Steps :-
+        --------
+
+        -> Create the HTTP server 
+        -> Create the chat server 
+        -> assign the port number to chat server with http server 
+        -> request for connection with chat server 
+        -> Read the client data 
+        -> send the data to another client 
+
+        To implement chat application we need to download one module
+
+        > yarn add websocket 
+                (or) 
+        > npm install websocket
+

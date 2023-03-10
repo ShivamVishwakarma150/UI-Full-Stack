@@ -1,15 +1,21 @@
 <article id="msg"></article>
 <script>
+  if (window.WebSocket) {
+    // html connected to chat server
     let socket = new WebSocket("ws://localhost:8081");
 
-    socket.onopen = function(){
-        socket.send("Welcome TO India")
-    }
-    socket.onmessage = function(msgs){
-        document.getElementById("msg").innerHTML+=msgs.data+"<br>";
-    }
+    // Send Data to Server
+    socket.onopen = function () {
+      socket.send("Welcome TO India");
+    };
 
-    socket.onerror = function(err){
-        console.log("Error.....!");
-    }
+    // read message sent by server
+    socket.onmessage = function (msgs) {
+      document.getElementById("msg").innerHTML += msgs.data + "<br>";
+    };
+
+    socket.onerror = function (err) {
+      console.log("Error.....!");
+    };
+  }
 </script>

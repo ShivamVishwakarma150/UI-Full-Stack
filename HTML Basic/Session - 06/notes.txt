@@ -1,0 +1,73 @@
+Static Page 
+    .htm, .html
+Dynamic Page    
+    .asp, .jsp, .php, .aspx
+
+                HTML 
+What is Hyper Text 
+- The term "hyper" means beyond.
+- it specifies that text contains information beyond what you see.
+
+What is a Markup Language?
+- The term Markup is derived from "Marking up", which means preparing content for presentation.
+- It is a Language used for presentation
+- It is used to present on Browser.
+
+Evolution of HTML 
+- GML [Generic Markup Language] is the first Markup Language used on Internet [Developed by CERN labs]
+    "Council for Europian Reasearch Language"
+- SGML [Standard Generic Markup Language]
+- 1990 - Tim Berners Lee introduced "HTML"
+- ITEF [Internet Engineering Task Force] Developed HTML upto 3.2 Version
+- 2004 WhatWg and W3C started Evolution of HTML as version 4.0
+ Web Hyper Text Application Technology Work Group [WHATWG]
+ World Wide Web Consortium [W3C]
+
+- The latest version of HTML is "HTML 5".
+- HTML is collection of "elements" arranged in "DOM".
+    [Document Object Model]
+
+HTML Rendering Process [Browser Engine]
+=======================
+Bytes => Characters => Tokens => Nodes => DOM => Rendering => Layout => Paint 
+
+HTML Elements are classified into following types:
+1. Normal Elements
+2. Void Elements
+3. RC Data Elements
+4. Raw Text Elements
+5. Foreign Elements
+
+Normal Element:
+- It returns a presentation directly on callback.
+- It will not stop the presentation.
+- It does'nt require any additional attributes.
+- Requires start and end tag.
+    <b> - Start 
+    </b> - End
+
+Void Element:
+- The term void indicates "no-return type or value".
+- void discards the return value.
+- void Element can't return any presentation directly on callback.
+- It Requires additional attributes.
+- It returns and stops the presentation implicitly.
+- It does'nt require an "end" tag 
+- It is often known as "self ending element"
+Ex:
+    <img>
+
+RC Data Elements:
+- Rich Content Data elements
+- Will not allow another element within the context.
+- It is only for plain text.
+Ex: <textarea></textarea>
+    <textarea>this is <b>my</b> </textarea>
+
+
+Raw text Element:
+- Elements that present by using raw text.
+- No tags required.
+Represent by &.
+
+

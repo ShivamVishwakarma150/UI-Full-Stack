@@ -1,0 +1,85 @@
+Setup Environment
+- install Node.js
+- Install Visual Studio Code
+- Plugins
+    VsCode-icons
+    Live Server
+    Intellisense for CSS class names
+
+Create a new Web Application
+=============================
+
+1. Create a new folder on your PC for Project
+        c:\FullStack-WebApplication
+            [Physical Path]
+
+2. open visual studio code 
+
+3. Go to File Menu -> Open Folder 
+
+4. Select "c:\FullStack-WebApplication"
+
+5. Open "terminal" [Ctrl+`]
+    [Go to Terminal Menu --> New Terminal]
+        PS> Power Shell 
+    Note : If your terminal opens with "PS [Power Shell]" , then switch to "CMD [Command Prompt]"
+    C:\FullStack-WebApplication
+
+6. Type the following command 
+    > npm init -Y 
+    npm  : node package manager 
+    init : Initialization of Project
+    -y   : Accept all Project Meta Data 
+This will generate a new File "Package.json"
+
+What is "package.json" ?
+- It comprises of project meta-data.
+- Meta-data contains information about your project which includes details like 
+    - Project Name 
+    - Version 
+    - Author 
+    - License
+    - Dependencies etc..
+- JSON [JavaScript Object Notation]
+- JSON is a formate used for representing data.
+    {
+        "ProjectName":"FullStack-WebApplication",
+        "Version":1.0,
+        "Author":"Shivam",
+        "license":"MIT"
+    }
+
+- Add following folders into Project 
+    a) public 
+    b) src 
+
+public : it is a repository of static resources.
+        [.html, .txt, .pdf, images etc]
+
+src : It is a repository of dynamic resources.
+        [.css, .scss, .js, .ts etc]
+
+- Add "index.html" file into "public" foler 
+- Note: every project starts with a file "index.html".
+    It is the startup page.
+
+- Go to index.html and add some text 
+    Welcome to Web Development 
+
+- Right click in the page "Index.html"
+- Select the option
+    "Open with live server"
+
+
+
+
+
+
+
+What is WebPage?
+- It is a hyper text document, that provides an UI for interacting with resources in Application.
+
+- Web Pages are classified into 2 types 
+    a) Static Page -> continuous memory
+    b) Dynamic Page [Non-Static] Discreet memory
+    

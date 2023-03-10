@@ -1,0 +1,28 @@
+What is web Server ?
+What is website?
+    - Virtual Directory
+        - Virtual Path
+        - Physical Path
+
+What is a Web Application?
+
+- Web Log [Blog]
+- journal on Inernet  - free - Vlog
+- published and maintain by individual users.
+
+- What is Wiki?
+
+
+
+
+
+Setup Environment for Building Web Application
+=================================================
+
+1. Download and install "Node.js" on your PC 
+    https://nodejs.org/en/
+    Run-> cmd 
+    C:\> node -v
+    C:\> npm -v
+2. Download and install Editor
+    Editor provides an IDE

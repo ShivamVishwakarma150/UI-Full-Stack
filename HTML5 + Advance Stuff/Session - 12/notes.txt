@@ -1,0 +1,6 @@
+Location API
+------------
+ 
+navigator is predefined object
+window is predefined object
+document is predefined object

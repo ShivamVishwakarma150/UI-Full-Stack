@@ -1,0 +1,39 @@
+<article id="my_location"></article>
+<br />
+<br />
+<button onclick="clickMe()">Show Location</button>
+<script>
+  function clickMe() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        function success(position) {
+          document.getElementById("my_location").innerHTML =
+            position.coords.latitude + ".........." + position.coords.longitude;
+        },
+        function error(err) {
+          switch (err.code) {
+            case err.PERMISSION_DENIED:
+              document.getElementById("my_location").innerHTML =
+                "PERMISSION DENIED";
+              break;
+            case err.POSITION_UNAVAILABLE:
+              document.getElementById("my_location").innerHTML =
+                "POSITION UNAVAILABLE";
+              break;
+            case err.TIMEOUT:
+              document.getElementById("my_location").innerHTML =
+                "TIMEOUT ERROR";
+              break;
+            case err.UNKNOWN_ERROR:
+              document.getElementById("my_location").innerHTML =
+                "NETWORK ERROR";
+              break;
+          }
+        }
+      );
+    } else {
+      document.getElementById("my_location").innerHTML =
+        "<b>Browser not supported Google Maps !!</b>";
+    }
+  }
+</script>

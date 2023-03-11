@@ -1,0 +1,83 @@
+Web Page
+=======
+- Document Declaration
+    <!DOCTYPE html>
+- Document Scope
+    <html></html>
+
+    1. Head 
+    2. Body
+
+HTML Head Section
+- title 
+- link 
+    It is used to link any external Document to web page.
+    you can link CSS or Favicon.
+
+Creating and Adding a "Favicon" to webPage 
+===========================================
+1. Go to your project "public" folder
+2. Add a new folder into public by nam "assets"
+3. Add a new file into assets by name "favicon.ico"
+
+Note: Favicon must have extension ".ico" and size
+        16x16 pixels to 32x32 pixels
+
+        Every Web Page size must be
+            1200px width
+            740px height
+
+4. Open you favicon in ms-paint
+5. Set page size to max 32x32 pixels
+6. Design your icon
+7. save
+8. Go to HTML page and Link favicon 
+    <link>
+    rel : It specifies the file type.
+        "stylesheet" for css 
+        "shortcut icon" for favicon
+        <link rel="shortcut icon">
+
+    hrf: It is hyper reference
+         virtual path of file 
+         
+         href="assets/favicon.ico"
+Syntax: 
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+
+Ex:
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title> Web Development </title>
+        <link rel="shortcut icon" href="assets/favicon.ico">
+    </head>
+</html>
+
+Note: There is no order dependency of element in head section.
+There is no order dependency of attributes in element.\
+
+FAQ: What is difference between "src" and "href"?
+Ans: "src" is a getter, it is used to get the path and display the file.
+"href" is a setter, It is used to set the path and access the file.
+
+                Meta in Head Section 
+                ====================
+- Meta stands for "meta-data".
+- Usually meta data comprises of information about your page, provided to web crawlers and web spiders.
+- SEO [Search Engine Optimization]
+- Meta is one of the option for making page SEO friendly.
+    [Responsive page fits according to device and browser]
+
+Syntax:
+    <meta charset="utf-8"> -> for BOTS 
+
+    UTF - Unicode Transformation Format
+        It is used by BOTS to know about the language used in page.
+        
+    8  bit for English [us, gb, in]
+    16 bit fot korean, Japanese etc 
+    32 Bit for china, Arabic
+
+    <html lang="en-in"> -> for browser engine 
+

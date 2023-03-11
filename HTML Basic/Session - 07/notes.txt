@@ -1,0 +1,87 @@
+HTML File Extension
+====================
+
+.html -> always prefer 
+.htm 
+there is no technical difference.
+both are same.
+FileName contain two parts 
+    - Primary Name -> Max 8 chars  
+    - Secondary Name  -> max 3 chars 
+    sample.html -> sample.htm -> in MS Word (When we write something and save as web page in Ms Word)
+
+Structure of HTML Page 
+----------------------
+
+1. Document Declaration 
+    This Document Declaration tels the parser which version of HTML you are using.
+    <!DOCTYPE html> -> For HTML5 Version 
+    if there is not <!DOCTYPE html> -> for lower version 
+
+    <> Token - Start Tag 
+    </> End Token - End Tag 
+    <!> Not a Tag 
+    <!DOCTYPE html> comment
+
+
+2. Document Scope -> indicates where a Document start and where it ends.
+    <html>
+    </html>
+It specifies the start and end of a document.
+we can use 2 Document in same html page but browser internally combines then and pack them in a single body.
+
+FAQ : Can a browser display multiple documents?
+Ans: Yes. It will merge all documents into one <body>.
+
+Document Attribute 
+- lang = language
+we have to tell browser also which language we are using. from which region you are using.
+A web page must contain document Declaration, document scope.
+
+lang is Attribute there is no property in HTML. property comes when you are dealing with dynamic pages in JS.
+
+EG:
+lang=en-in   - not good (valid)
+lang="en-in" (valid) -> Most Prefer
+lang='en-in' (valid) -> use in case " '' " only
+
+<html lang="en-in">
+
+</html>
+
+
+Every Document scope at high level there is 2 section.
+
+a) Head 
+    <head></head> -> Kept most of time in Memory
+b) Body 
+    <body></body> -> Kept Most of time in Browser 
+
+
+
+World Fastest Browser ?
+- Opera Mini
+- large amount of cache memory 
+- large amount of data can be kept in memory
+
+
+Head Section:
+- It Comprises of information that is loaded into browser memory and accessed by browser or page when ever required. It is cleaned from memory when browser is closed.
+- Typically head section contains 
+        a) title 
+        b) link
+        c) meta 
+        d) script 
+        e) style
+
+title: It comprises of title to display in browser title bar.
+It defines the title for bookmarking page.
+
+    <head>
+        <title>Index Page</title>
+    </head>
+
+
+
+
+

@@ -71,3 +71,5 @@ Raw text Element:
 Represent by &.
 
 
+Foreign Elements
+    - Canvas, SVG, MathML

@@ -1,0 +1,52 @@
+Body Section Semantic Elements
+
+- HTML-4 Body section is designed by using "Tables"
+- In that there we don't know which component loaded first - kiss of Death
+- It is not SEO Friendly
+- Content is not loaded in ordered way.
+
+- HTML 5 introduced new semantic elements.
+- semantic elements means elements with some purpose.
+- It is used to make HTML page more SEO Friendly.
+
+1. Aside -> For Advertisement
+
+2. Article -> Contain Information Related to website / it contains recent update of your website also.
+
+3. Dialog -> Dialog is used for interaction like pops/bots in website
+
+4. Figure   
+5. FigCaption -> used for a particular figure 
+6. Header
+7. Footer
+8. Section 
+9. Main 
+10. Div 
+11. SPan 
+12. Nav 
+13. Menu
+
+    Div [Blocked Content] 
+        Loading the content line by line.
+
+    Span [Inline Content]
+        Loading the content side by side.
+
+<div>
+HTML Tutorial
+<div>
+    para-1
+    para-2
+</div>
+</div>
+
+<div>
+CSS Tutorial 
+para-1
+para-2
+</div>
+
+<p>some text <span>Keywords</span> some other text </p>
+
+span -> used for highlighting.
+

@@ -1,0 +1,123 @@
+Meta tag
+=========
+
+http-equiv   ->  request headers -> how and when page have to response -> entire page got refreshed in a particular time whatever we mentioned.
+
+If we want to refresh a portion of page then we have to use AJAX.
+
+Syntax:
+    <meta http-equiv="refresh" content="4">
+    [4 = 4 seconds]
+
+
+
+Meta View Port 
+---------------
+
+- It makes the page responsive.
+- it is one of the option for making page responsive
+- responsive means, page will fit content according to device width.
+
+Syntax-
+<meta name="viewport" content="width=device-width initial-scale=1">
+
+width=device-width : fit content according to browser window width.
+initial-scale=1 : initial size of content will be 100%
+
+
+Style : The style element is used to embed styles into page.
+<style></style>
+
+Script: It is used to embed scripts into page.
+        <script></script>
+
+2. Body Section
+- body section contains information to display in browser workspace.
+
+Attributes:
+- bgcolor       : It sets a background color 
+- text          : It set text color
+
+<body bgcolor="red" text="white"></body>
+
+HTML Colors:
+- you can define color using 
+    a) Color Name 
+    b) Hexadecimal Code 
+
+Color Name:
+    <body bgcolor="red"></body>
+
+Hexa Code:
+        #RRGGBB R- Red, G-Green, B-Blue
+        #RGB 
+
+        Color value will be from " 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f"
+
+        0=dark 
+        f=light
+
+        Syntax:
+            <body bgcolor="#f00"> red 
+            <body text="#fff"> white 
+
+- background : It sets a background image for page.
+
+        <body background="assets/netflixback.jpg">
+
+
+- align  : It align the content left, center, right or justify.
+
+    <body align="center"></body>
+    <body align="justify"></body>
+
+- leftmargin
+- rightmargin
+- topmargin
+- bottommargin
+
+        What is max width of page -> 1200px
+        content should be within 500px 
+        left margin 350    not more than 350
+        right margin 350  not more than 350
+
+<body leftmargin="350" rightmargin="350" topmargin="50" bottommargin="50">
+
+
+- alink -> when hold down on it then it visible
+- vlink -> visited link 
+you cant change color of ordinary link for that we have to got for other option
+
+<body alink="red" vlink="gray">
+        <a href="http://www.amazon.in">Amazon Shopping</a>|
+        <a href="http://www.microsoft.com">microsoft</a>
+</body>
+
+
+
+Body Tag Attributes
+
+- bgcolor
+- text 
+- background
+- align
+- vlink
+- alink
+- leftmargin
+- rightmargin
+- topmargin
+- bottommargin
+
+
+
+
+
+
+
+
+
+
+
+
+
+

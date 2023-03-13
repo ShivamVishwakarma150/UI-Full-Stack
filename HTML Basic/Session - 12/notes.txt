@@ -1,0 +1,106 @@
+Basic HTML Entities and Elements in Body Section
+=================================================
+1. Line Breaks
+    Browser ignores Line Breaks defined in Editor.
+    You have to add line break manually by using <br> Element.
+
+FAQ: What is difference between <br> <br/> and </br> ?
+Ans: <br> is the valid line break.
+     <br/> defines that it is self ending [void].
+     </br> Invalid
+     functionally all are same.
+     Browser can understand only <br>.
+     Avoid using <br/> or </br>
+
+2. Blank Space
+    Browser can use single character space between chars or words.
+    Additional blank spaces are ignored.
+    you can manually add a black space by using "&nbsp;"
+    [Non-Breakable Space]
+    Syntax:
+     H &nbsp; &nbsp; T ... M ...L 
+
+3. Pre-Formatted Text
+    Html ignore line break and blankspaces in formatted content. you can display the formatted content exactly defined in editor by using <pre> element.
+
+    Syntax:
+        <pre>
+            ... your content 
+        </pre>
+
+4. Code
+    It is an HTML element used to configure a code block.
+    Browser engine and SEO can handle code block.
+    it is defined by using <code> element.
+
+    Syntax:
+        <code>
+            your code...
+        </code>
+
+5. Variables
+    Computer programming uses variables to store data.
+    HTML provides <var> element for designating variables.
+
+    Syntax:
+        var <var>UserName</var> = "John"; <br>
+        var <var>email</var> = "john@gmail.com" <br>
+
+6. Titles for Text and Images
+    Title can display content as screen tip.
+    Screen tip is displayed when mouse pointer is over the content.
+
+    <span title="some description">Your Text</span>
+
+    "Title" is an attribute defined for HTML elements.
+
+7. Headings
+    HTML provides <hn> elements for Headings where "n" refers to level number from 1 to 6.
+
+    <h1></h1>
+    <h2></h2>
+    <h6></h6>
+
+    - Headings levels 1 to 6 decrease the font size.
+
+    - Heading element is used to make heading SEO friendly.
+
+    - SEO can identify the topics in your page.
+
+    - Don't use heading element for highlighting any text or content in a paragraph.
+
+    -Don't use lot of headings in one page. This will SPAM your page.
+
+
+FAQ: Without heading element can we define heading styles?
+Ans: Yes But they are not SEO friendly
+
+FAQ: Can we change the size, color and effects for heading?
+Ans: Yes. With CSS.
+
+FAQ: What is the purpose of Heading Element?
+Ans: To make the element SEO friendly.
+    SEO can summarize the topics in your page by using headings.
+
+Heading attribute:
+Headings can be defined with "align" attribute.
+
+<h1 align="center">Your text</h1>
+
+8. Paragraphs and Blockquotes
+
+    Paragraphs are defined by using <p>
+    Blockquotes are defined by <blockquote>
+    [Blockquote have left and right indentation]
+
+    <p>Your paragraph</p>
+    <blockquote>Your content</blockquote>
+
+Attribute : align 
+            <p align="justify">
+            <blockquote align="justify">
+
+
+
+
+

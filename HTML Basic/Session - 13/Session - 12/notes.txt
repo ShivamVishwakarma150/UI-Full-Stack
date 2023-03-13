@@ -1,0 +1,163 @@
+Data Terms and Definitions
+===========================
+
+<dl> ->  defines a data list, which contains terms and definitions 
+<dt> -> data terms 
+<dd> -> data definitions
+
+Syntax:
+
+<dl>
+    <dt>Term1</dt>
+    <dt>Term2</dt>
+    <dd>Definition</dd>
+</dl>
+
+dl{
+    display:grid;
+    grid-template-columns:3fr 9fr;
+}
+
+Details and Summary
+-------------------
+
+<details>  -> contains information which you can toggle display. 
+            [show or hide]
+
+<summary> -> It defines the title for details.
+
+Syntax:
+<details>
+    <summary>Title</summary>
+    your content
+</details>
+
+Note: Details is hidden by default, keep the attribute "open".
+
+
+<details open>
+    <summary>Title</summary>
+    ...... Your content .......
+</details>
+
+
+Field Set and Legends
+----------------------
+
+- Field set is container with frame.
+- Legend puts a caption for field set. 
+
+Syntax:
+
+<fieldset>
+<legend> Title </legend>
+Your content
+</fieldset>
+
+Shadow For Container:
+div{
+    box-shadow:horizontal vertical blur color;
+}
+div{
+    box-shadow:5px 4px 2px red;
+}
+
+Ex:
+legend{
+    box-shadow : 3px 2px 3px gray;
+}
+
+Note: Box shadow cannot be applied to text. you have to use "text-shadow".
+h2{
+    text-shadow: h v blur color;
+}
+h2{
+    text-shadow: 2px 3px 2px black;
+}
+
+Ordered List and Unordered List 
+==================================
+
+Ordered List
+------------
+- Order List will add auto numbering for a list of options, which can update automatically when you add or delete items.
+
+- Orders List is defined by using <ol> Element.
+
+- Items in list are defined by using <li>.
+
+Syntax:
+<ol> 
+<li> Item-1 </li>
+<li> Item-2 </li>
+</ol>
+
+
+Unordered List
+--------------
+- It is used to define bulleted list.
+- Bulleted list comprises symbol instead of numbering.
+- Unordered list is defined by using “<ul>”
+- List items are defined by using “<li>”
+- The attribute “type” defines the symbol type, which can be
+o disc
+o circle
+o square
+
+
+
+
+
+Type - It specifies the numbering type, which can be:
+-	a 
+-	A
+-	i 
+-	I 
+-	1
+Ex:
+<ol type="a">
+           <li>Internet</li>
+           <li>Web Server</li>
+           <li>Web Site</li>
+           <li>Web Page</li>
+ </ol>
+
+
+
+start [number]	- It defines the numbering level to start with. 
+ default value is 1.
+Ex:
+<ol type="A" start="5">
+           <li>Internet</li>
+           <li>Web Server</li>
+           <li>Web Site</li>
+           <li>Web Page</li>
+</ol>
+
+
+
+reversed -	It arranges the numbering in reverse order. It is not support on old version browser. 
+
+Ex:
+<ol reversed start="5">
+           <li>Internet</li>
+           <li>Web Server</li>
+           <li>Web Site</li>
+           <li>Web Page</li>
+</ol>
+
+
+
+lang - It specifies the numbering language according to specified region. It is supported only on modern browsers.
+
+Ex:
+<ol lang="hi" >
+           <li>Internet</li>
+           <li>Web Server</li>
+           <li>Web Site</li>
+           <li>Web Page</li>
+</ol> 
+
+
+
+

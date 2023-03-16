@@ -1,0 +1,171 @@
+Text Effects in HTML
+- Font
+    face, size, color
+- Font Styles
+    bold, italic
+- Font Effects  
+    underline, strikeout, super script, subscript
+
+
+<font> 	It is used to configure the following options for text
+-	Face: It defines font family like, Arial, Time New Roman, Sans-Serif etc. 
+
+Syntax:
+-------
+
+<font face="Arial">
+Welcome to HTML
+</font>
+
+-	Size: It defines the font size, which can be from 1 to 7 levels. [Default size is 3]
+-	Color: It defines color for text. 
+
+Note: <font> is deprecated [Obsolete] from HTML 5. It is recommended to define font only with CSS.
+
+FAQ: What are web safe fonts?
+Ans: serif, sans-serif, monospace
+other fonts some machine supports some machine not supports.
+
+Font Styles and Font Effects
+===========================
+Font Style	    Tag
+Bold    	<b> <strong>
+Italic	    <i> <em> [Emphasized] 
+
+Font Effects    	Tag
+Underline	        <u> <ins>
+Strikeout	        <strike> <del>
+Super Script	    <sup> Character position raised from base line
+Sub Script	        <sub> Character position lowered from base line
+
+
+FAQ: what is difference between <b> and <strong>
+Ans: -	HTML document is designed and reviewed by developer. 
+-	Documents have 2 modes
+o	Design Mode
+o	Review Mode	
+-	In review mode the design can be modified.
+-	Modifications are indicated using few review tags like <em> <ins> <del> <strong> etc.
+
+- <b> is bold in design 
+- <strong> is bold in review mode.
+
+
+Images in HTML
+===============
+
+-	The HTML <img> tag is used to embed images into page. 
+-	Browser can’t support all image types. 
+-	Whenever you are configuring images, browser verifies its “MIME” type.
+-	MIME [Multipurpose Internet Mail Extension] 
+Ex:
+Flower.jpg 		image/jpeg [MIME Type]
+Flower.jpeg
+Flower.jfif
+Flower.pjpeg
+
+-	You have to use only supported image types. 
+-	HTML standard Image types 
+
+Abbreviation 	File Format	MIME Type	File Extension
+APNG	Animated Portable Network Graphics	Image/apng	.apng
+
+BMP	Bitmap File	Image/bmp	.bmp
+
+GIF	Graphics Interchange Format	Image/gif	.gif
+
+ICO	Microsoft Icon	Image/x-icon	.ico, 
+
+.cur
+JPEG	Joint Photographic Expert Group	Image/jpeg	.jpg,
+.jpeg,
+.jfif,
+.pjpeg,
+.pjp
+
+PNG	Portable Network Graphics	Image/png	.png
+
+SVG	Scalar Vector Graphics	Image/svg+xml	.svg
+
+TIFF	Tagged Image File Format	Image/tiff	.tiff,
+.tif
+
+WebP	Web Picture Format	Image/webp	.webp
+
+FAQ: Tell me about XML format Image in HTML? 
+-	SVG is XML format image.
+-	This image format can’t be blocked by firewall.
+-	XML format images can be available offline. 
+-	Cross platform [Every Device]  
+
+A developer must know the type of image suitable for situation.
+Image Type	Purpose
+PNG	-	High resolution 
+-	High definition
+-	Occupy more space in memory
+-	Hight pixel depth.
+-	Good for providing image which user can download and use for later. 
+
+JPG	-	Compressed Image format
+-	Occupies less space. 
+-	Less pixel depth than PNG
+-	High resolution
+-	High definition
+-	Loose the quality on ZOOM.
+-	Good for on screen presentation. 
+
+GIF	-	Low resolution
+-	Low definition
+-	Less pixel depth than JPG
+-	Only 256 colors
+-	Can have animation. 
+-	Good for logos, bullets, buttons.
+
+SVG	-	SVG is XML format image.
+-	This image format can’t be blocked by firewall.
+-	XML format images can be available offline. 
+-	Cross platform [Every Device]  
+-	Vector Graphics [2D]
+-	Not pixel based.
+-	Zoom image – Quality increase
+
+WebP	-	It embeds image into page.
+-	When you try to save image, it saves entire page.
+-	It will not allow to capture the image separately. 
+
+-	If you are using images for advertisements then you have to configure the size also as per standards
+
+Leaderboard 		728 x 90		[pixels in width and height]
+Half Page			300 x 600	
+Medium Rectangle	300 x 250
+Large Rectangle 		336 x 280
+
+-	Photoshop is the tool used for publishing and editing images. 
+-	The tag <img> is used to embed image into page. 
+-	It is a void element.
+-	<img> is configure with following attributes 
+Attribute	Description
+alt	It defines the alternative text to display when image is unable to load. 
+
+src	It specifies the name path of image to display.
+
+Width & height	It specifies the width and height in pixels or in percentage. 
+
+border	It specifies border for image in pixels. 
+
+title 	It specifies the screen tip to display for image when mouse is over the image. 
+
+align	Align image left or right.
+
+Image will not support center. 
+
+Align will wrap text around image. 
+
+Hspace	Horizontal space between text and image.
+
+Vspace	Vertical space between text and image. 
+
+Note:
+In latest versions of HTML “hspace and vspace” are obsolete. 
+
+

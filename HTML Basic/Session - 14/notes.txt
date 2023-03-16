@@ -1,0 +1,277 @@
+Note: Always use camel-case for naming.
+
+        lowerUppercase
+
+        prefix - which component you are refering
+        suffix - for what purpose.
+
+List Item Side by Side 
+
+ex:
+
+ol{
+    display:flex;
+}
+
+List Items in Multiple Columns 
+
+Ex:
+ol{
+    display:grid;
+    grid-template-columns:6fr 6fr;
+}
+
+
+
+Unordered List
+==============
+
+- It is used to define bulleted list.
+- Bulleted list comprises symbol instead of numbering.
+- Unordered list is defined by using “<ul>”
+- List items are defined by using “<li>”
+- The attribute “type” defines the symbol type, which can be
+o disc
+o circle
+o square 
+
+
+
+FAQ: How to define custom symbol as bullet symbol?
+
+- By using style attribute “list-style-image”
+- It uses “url()” that specifies the name and location of image to display.
+Ex:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List</title>
+    <style>
+        ul {
+            list-style-image: url("../icons/bullet.png");
+        }
+        li {
+            font-size: 34px;
+        }
+    </style>
+</head>
+    <body>
+        <ul>
+            <li>Web Sever</li>
+            <li>Web Site</li>
+            <li>Web Page</li>
+        </ul>
+    </body>
+</html>
+
+List Items Side By Side
+
+Ex:
+ ol
+  {
+    display:flex;
+  }
+
+List Items in Multiple Columns
+
+Ex:
+ ol
+ {
+    display:grid;
+    grid-template-columns: 6fr 6fr;
+ }
+
+
+Unordered List: 
+- Bulleted style
+- Symbol instead of number
+
+<ul>
+ <li> </li>
+</ul>
+
+Attribute:
+type= circle, disc, square
+
+<ul  type="circle">
+
+
+Custom Image as Bullet
+
+Ex:
+ ul 
+  {
+   list-style-image: url("assets/bullet.png");
+  }
+
+
+Library for Symbols in your Project
+- Fontawesome
+- Bootstrap Icons
+
+
+Download and Install Bootstrap Icons for your project
+========================================
+1. Open Project Terminal
+	[Ctrl + ` ]
+
+2. Type the following command
+
+	> npm install bootstrap-icons --save
+
+3. All library files are copied into "node_modules" folder.
+
+4. Go to HTML file and link "bootstrap-icons" css file.
+
+
+<head>
+<link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" >
+</head>
+
+
+5. Every icon is accessed by using its class name, which you can apply for any container,  <span> <div> <p> <dd> <li> etc..
+
+
+	<span class="bi bi-bell"> </span>
+
+	https://icons.getbootstrap.com
+
+Note: To remove numbering or bullet symbol for list item
+
+	ul, ol 
+	{
+	  list-style:none;
+	}
+
+
+Ex:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Icons Demo</title>
+        <style>
+            ul {
+                list-style: none;
+                position:fixed;
+                bottom: 0px;
+                right: 20px;
+            }
+            li {
+                margin-bottom: 20px;
+                font-size: 30px;
+                background-color: darkcyan;
+                color:white;
+                padding: 10px;
+                border-radius: 10px;
+            }
+        </style>
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" >
+    </head>
+    <body>
+        <h1 align="center"> <span class="bi bi-cart4"></span> Amazon Shopping </h1>
+        <p>Depending on how you obtained the Windows software, this is a license agreement between (i) you and the device manufacturer or software installer that distributes the software with your device; or (ii) you and Microsoft Corporation (or, based on where you live or, if a business, where your principal place of business is located, one of its affiliates) if you acquired the software from a retailer. Microsoft is the device manufacturer for devices produced by Microsoft or one of its affiliates, and Microsoft is the retailer if you acquired the software directly from Microsoft. Note that if you are a volume license customer, use of this software is subject to your volume license agreement rather than this agreement.</p>
+        <p>Depending on how you obtained the Windows software, this is a license agreement between (i) you and the device manufacturer or software installer that distributes the software with your device; or (ii) you and Microsoft Corporation (or, based on where you live or, if a business, where your principal place of business is located, one of its affiliates) if you acquired the software from a retailer. Microsoft is the device manufacturer for devices produced by Microsoft or one of its affiliates, and Microsoft is the retailer if you acquired the software directly from Microsoft. Note that if you are a volume license customer, use of this software is subject to your volume license agreement rather than this agreement.</p>
+        <p>Depending on how you obtained the Windows software, this is a license agreement between (i) you and the device manufacturer or software installer that distributes the software with your device; or (ii) you and Microsoft Corporation (or, based on where you live or, if a business, where your principal place of business is located, one of its affiliates) if you acquired the software from a retailer. Microsoft is the device manufacturer for devices produced by Microsoft or one of its affiliates, and Microsoft is the retailer if you acquired the software directly from Microsoft. Note that if you are a volume license customer, use of this software is subject to your volume license agreement rather than this agreement.</p>
+        <p>Depending on how you obtained the Windows software, this is a license agreement between (i) you and the device manufacturer or software installer that distributes the software with your device; or (ii) you and Microsoft Corporation (or, based on where you live or, if a business, where your principal place of business is located, one of its affiliates) if you acquired the software from a retailer. Microsoft is the device manufacturer for devices produced by Microsoft or one of its affiliates, and Microsoft is the retailer if you acquired the software directly from Microsoft. Note that if you are a volume license customer, use of this software is subject to your volume license agreement rather than this agreement.</p>
+        <p>Depending on how you obtained the Windows software, this is a license agreement between (i) you and the device manufacturer or software installer that distributes the software with your device; or (ii) you and Microsoft Corporation (or, based on where you live or, if a business, where your principal place of business is located, one of its affiliates) if you acquired the software from a retailer. Microsoft is the device manufacturer for devices produced by Microsoft or one of its affiliates, and Microsoft is the retailer if you acquired the software directly from Microsoft. Note that if you are a volume license customer, use of this software is subject to your volume license agreement rather than this agreement.</p>
+        <p>Depending on how you obtained the Windows software, this is a license agreement between (i) you and the device manufacturer or software installer that distributes the software with your device; or (ii) you and Microsoft Corporation (or, based on where you live or, if a business, where your principal place of business is located, one of its affiliates) if you acquired the software from a retailer. Microsoft is the device manufacturer for devices produced by Microsoft or one of its affiliates, and Microsoft is the retailer if you acquired the software directly from Microsoft. Note that if you are a volume license customer, use of this software is subject to your volume license agreement rather than this agreement.</p>
+        <p>Depending on how you obtained the Windows software, this is a license agreement between (i) you and the device manufacturer or software installer that distributes the software with your device; or (ii) you and Microsoft Corporation (or, based on where you live or, if a business, where your principal place of business is located, one of its affiliates) if you acquired the software from a retailer. Microsoft is the device manufacturer for devices produced by Microsoft or one of its affiliates, and Microsoft is the retailer if you acquired the software directly from Microsoft. Note that if you are a volume license customer, use of this software is subject to your volume license agreement rather than this agreement.</p>
+        <div>
+            <ul>
+                <li class="bi bi-facebook"></li>
+                <li class="bi bi-linkedin"></li>
+                <li class="bi bi-twitter"></li>
+                <li class="bi bi-youtube"></li>
+            </ul>
+        </div>
+    </body>
+</html>
+
+
+Ex:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navbar</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <style>
+            ul {
+                list-style: none;
+            }
+            li {
+                width: 200px;
+                background-color: tomato;
+                color:white;
+                padding: 5px;
+                font-size: 20px;
+                margin-bottom: 20px;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li> <span class="bi bi-house-fill"></span> Home</li>
+                <li> <span class="bi bi-bell"></span> Notifications</li>
+                <li> <span class="bi bi-person"></span> Sign In</li>
+            </ul>
+        </nav>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

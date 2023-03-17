@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intra Links</title>
+        <style>
+            .topic {
+                border:2px solid black;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            .topic:target {
+                background-color: black;
+                color: white;
+            }
+            .topic:hover {
+                background-color: yellow;
+                color: red;
+            }
+            ul {
+                list-style: none;
+                display: flex;
+            }
+            li {
+                font-size: 20px;
+                margin-right: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <ul>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JavaScript</a></li>
+            </ul>
+        </div>
+        <div class="topic" id="html">
+            <h2>HTML</h2>
+            <p>It is a markup language.</p>
+        </div>
+        <div class="topic" id="css">
+            <h2>CSS</h2>
+            <p>It defines styles for HTML.</p>
+        </div>
+        <div class="topic" id="js">
+            <h2>JavaScript</h2>
+            <p>It is a language for handling client interactions.</p>
+        </div>
+    </body>
+</html>

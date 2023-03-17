@@ -1,0 +1,127 @@
+Hyperlinks in HTML
+===================
+-	Link is clickable text, picture or graphic that navigates the user to any specified location when clicked. 
+
+-	Hyperlink is clickable text, picture of graphics that navigates over “Http”. 
+
+-	Hyperlinks are required to design navigation in website. 
+
+Note: According the Web Designing standards every website must have a proper navigation mechanism. User must able to reach to any topic just with one click. 
+
+-	HTML Hyperlinks are created by using “Anchor” Element.
+
+-	Anchor is designed by using “<a>” tag. 
+
+-	Hyperlinks in Website are classified into 2 types
+o	Intra document links
+o	Inter document links
+
+Intra document link
+-------------------
+
+-	It is a hyperlink that handles navigation from one location to another within the same page. 
+
+-	User can navigate to any location within the page.
+
+-	In order to navigate to any location within page, you have to define unique reference ID for the target element. 
+
+Ex:
+<h2 id=”electronics”> </h2>
+<div id=”footwear”> </div>
+<img id=”pic”> 
+
+-	The anchor element uses “href” attribute that specifies the target location.
+
+-	“href” will set the specified path in “URL”.
+
+-	You can refer any ID by using “#”
+
+- for Site Map we use hyperlinks 
+
+
+Syntax:
+<a href="#electronics"> </a>
+
+FAQ: How to change color for Visited, Active and Normal Links? 
+-	You can use <body> tag attributes
+o	alink 
+o	vlink
+
+-	You can define with styles
+o	a:link { }
+o	a:visited { }
+o	a:active { }
+
+FAQ: How to remove underline for Hyperlink?
+-	You can use “style”
+-	text-decoration:none
+
+- To define intra document links
+    step-1 : Define "id" for any element in page 
+        <h2 id="footwear">
+        <ol id="offers">
+        <figcaption id="shirt">
+
+    step-2 : you can refer "id" by using anchor element <a>
+
+        <a href="#footwear">Footwear</a>
+        <a href="#offers">Offers</a>
+    
+
+- Intra document links can use target selector of “css” in order to highlight the target content if it is not scrollable.
+
+----------------------------------------------------------
+
+FAQ: How to target any reference within the page with style?
+Ans: By using ":target" selector.
+
+Syntax:
+
+.topic{
+    //initial effects;
+}
+.topic:target{
+    // effects to apply when it is target for hyperlink.
+}
+
+----------------------------------------------------------
+
+FAQ: How to change effects for element on mouse over ?
+Ans: By using ":hover" selector
+    
+        .topic:hover{
+            // your effects
+        }
+
+
+----------------------------------------------------------
+
+
+FAQ: How to remove underline for Hyperlink?
+Ans: by using "text-decoration:none" with style 
+
+a{
+    text-decoration:none;
+}
+
+----------------------------------------------------------
+
+FAQ: How to change color for HyperLink ?
+Ans:
+
+a:link{
+    effect for normal link ;
+}
+
+a:visited{
+    effect for visited link;
+}
+
+a:active{
+    effect for active link;
+}
+
+a{
+    // effects for all phases [visited, normal and active]
+}
+

@@ -1,0 +1,61 @@
+Images Types
+
+Embed Images into Page 
+
+- The tag <img> is used to embed images.
+- It is an void element
+
+Images Attributes: 
+
+1. alt : alternative text to display when image fails to load.
+
+2. src : It defines the image path and name.
+
+3. width & height : specifies width and height of image in px or %.
+
+        % makes images responsive and fluid.
+
+FAQ: What are fluid images.
+Ans: Image that can adjust size according to browser. You can   define using "%" as units.
+
+4. title : It is used to display screen tip. it usually appears when mouse is over on image.
+
+5. border : It defines border in pixels.
+
+6. align : Image can be aligned left or right. Align is used to wrap text around image.
+
+7. vspace & hspace: padding horizontal and vertical.
+    
+
+Advanced Attributes:
+
+8. crossorigin :  It is defined with "anonymous & use-credentials".
+                It allows or restrict image from crossorigin.
+
+Ex: an image is on other machine and you are fetching it into your machine. then there anonymous means allowed.
+
+if crossorigin is use-credentials then it first verify the image then allows.
+
+9. decoding : another imp Attribute It is defined with "sync, async and auto".
+                1) sync : synchronous - blocking technique
+                2) async : asynchronous - unblocking
+                3) auto : according to environment preferences.
+
+Question is paragraph is loaded first or image is loaded first.
+both loading side by side or both at once loading that is decided by decoding.
+these days async is more preferable.
+auto means it is adjust according to your bandwidth and environment.
+
+10. importance: It is defined with low, high & auto.
+                It loads images as per the priority defined.
+
+
+Ex:
+
+Card layout using images with responsive design.
+================================================
+
+
+
+
+                  

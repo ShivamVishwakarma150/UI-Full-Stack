@@ -1,0 +1,77 @@
+Inter Document Links
+====================
+- means one document to other
+-	Hyperlinks that handle navigation to any URL or any another page in website. 
+-	It also refers Hyperlink which can invoke email and call clients. 
+-	Navigation can be to
+o	File [word document, presentation, pdf]
+o	URL
+o	Email Client
+o	Mobile Dial application 
+o	HTML Page 
+
+
+Note: The target linked document can open in browser only when relative plugin's are supported by browser.
+    if plugins are not supported then the target document will download.
+
+
+------------------------------------------------------------------
+
+FAQ: How to download any file through a link without opening it in browser?
+or How to link a document which will download always?
+
+Ans: - We can use “download” attribute for Hyperlink. 
+Ex: 
+
+<a href="../docs/cssdemo.pdf" download="" >CSS Tutorial PDF</a>
+
+<a href="../docs/cssdemo.pdf" download="css tutorial" >CSS Tutorial PDF</a>
+
+------------------------------------------------------------------
+
+FAQ: How to open link target in a new Tab? or 
+How to open linked document in a new Tab?
+
+-	Usually, the link target opens in the same browsing tab. 
+-	You can define link with “target” attribute with value “_blank” to open in a new tab. 
+Syntax:
+<a href="../Images/shoe.jpg" target="_blank" >Nike Casuals</a>
+
+------------------------------------------------------------------
+
+FAQ: How to open linked document in a new Window?
+-	You have to use JavaScript “window.open()” method for hyperlink. 
+Syntax:
+<a href="javascript:window.open('../Images/shoe.jpg','Nike','width=500 height=400')"> Nike Casuals</a>
+
+------------------------------------------------------------------
+
+FAQ: How to open link target in the same window along with existing content?
+or
+How to open linked document in the same page embedded at specific location?
+Ans: By using "<iframe>"
+
+-	You can embed the link target into same window along with existing content by using “iFrame”
+
+-	iframe allows to embed any external linked document into the page at specified location. 
+
+Ex:
+<iframe src="https://www.youtube.com/embed/si-KFFOW2gw" width="600" height="500"></iframe>
+
+-------------------------------------------------------------------------------------
+
+FAQ: How to create a link for email, skype and phone call?
+Ans: Link href uses 
+
+            "mailto:"    for email 
+            "tel:"       for phone call 
+            "skype:"     for skype 
+            "javascript:" for executing a javascript function 
+                        [window.open()]
+
+        <li><a href="mailto:hr@TIAA.in" >hr@nareshit.in</a></li>
+
+        <li><a href="tel:+919685748547">Call : +919876543210</a></li>
+
+        <li><a href="skype:TIAA@outlook.com">Skype us</a></li>
+

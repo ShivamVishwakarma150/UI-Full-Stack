@@ -58,6 +58,9 @@ Ans: By using "<iframe>"
 Ex:
 <iframe src="https://www.youtube.com/embed/si-KFFOW2gw" width="600" height="500"></iframe>
 
+view url:   watch?v=code 
+embed url:  /embed/code 
+
 -------------------------------------------------------------------------------------
 
 FAQ: How to create a link for email, skype and phone call?

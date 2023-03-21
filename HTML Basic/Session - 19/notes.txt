@@ -1,0 +1,93 @@
+fOpen link target in new tab
+    "target=_blank"
+
+
+Note: Iframe can use a default source by using "src" attribute.
+
+    Syntax:
+        <iframe src="home.html"></iframe>
+        <iframe src="http://www.site.com"></iframe>
+
+
+            Frames in HTML 
+        [Obsolete – No Longer in use]
+
+-	HTML provides <frameset> that can split the browser window into multiple windows.
+
+-	<frameset> is a collection of “frames”.
+
+-	Every frame is designed by using <frame>. 
+
+Note: It is not embedding the content into page. It is splitting the window into horizontal or vertical panes. 
+
+-	The document that is designed with frame can’t contain body section. 
+
+Syntax:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopping | Online</title>
+    </head>
+    <frameset rows="15%, 70%, 15%">
+       <frame></frame>
+       <frame></frame>
+       <frame></frame>
+    </frameset>
+</html>
+
+-	You can’t add any content directly inside frame. 
+-	Frame can handle only a document [Picture, PDF, text, HTML] by using “src” attribute. 
+- <frameset> is defined after <head> section.
+
+- Frames can be nested with rows and columns.
+- Frame can't display any content directly, It re   uires a HTML page or URL source.
+
+    <frame name=frameBody" src="home.html"> </frame>
+
+
+Center your content on page horizontally and vertically
+=======================================================
+1. Create a container - Parent
+2. create a container - Child
+3. keep your content in child container
+
+    <div class="parent">
+        <div class="child">
+            your content
+        </div>
+    </div>
+
+4. Set following effects to parent 
+    .parent{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:400px;
+    }
+
+
+Background Image for body section:
+
+<body>
+    <div class="container">
+    
+    </div>
+</body>
+
+
+styles:
+---------
+
+body{
+    Background-image:url("assets/netflix.jpg");
+    Background-size:100% 100%;
+    Background-repeat: no-repeat;
+}
+.container{
+    Background-color:rgba(0,0,0,0.3);
+    height:600px;
+}
+
+
+
+

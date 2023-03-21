@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navbar</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <style>
+            #card {
+                width: 200px;
+                box-shadow: 3px 2px 3px gray;
+                border:2px solid black;
+                padding: 20px;
+                margin: 20px;
+                text-align: center;
+            }
+            #container {
+                display: flex;
+                /* content goes to next line in wrap */
+                flex-wrap: wrap; 
+
+            }
+            button {
+                width: 100%;
+                font-size: 20px;
+                background-color: tomato;
+                color:white;
+            }
+            p {
+                color:orange;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+
+            <div id="card">
+                
+                <img src="assets/speaker.jpeg" width="100%" height="200">
+                <p>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-half"></span>
+                </p>
+                <div id="card-header">
+                    <h3>JBL Speaker</h3>
+                </div>
+                <div id="card-body">
+                    
+                    <p> &#8377; 5000.44</p>
+                </div>
+                <div id="card-footer">
+                    <button> <span class="bi bi-cart4"></span> Add to Cart</button>
+                </div>
+            </div>
+
+
+            <div id="card">
+                <img src="assets/shoe.jpg" width="100%" height="200">
+                <div id="card-header">
+                    <h3>Nike Casuals</h3>
+                </div>
+                <div id="card-body">
+                    
+                    <p>&#8377; 6000.66</p>
+                </div>
+                <div id="card-footer">
+                    <button> <span class="bi bi-cart4"></span> Add to Cart</button>
+                </div>
+            </div>
+
+            <div id="card">
+                <div id="card-header">
+                    <h3>Lee Boot</h3>
+                </div>
+                <div id="card-body">
+                    <img src="assets/shoe1.jpg" width="100%" height="200">
+                    <p>&#8377; 3000.66</p>
+                </div>
+                <div id="card-footer">
+                    <button> <span class="bi bi-cart4"></span> Add to Cart</button>
+                </div>
+            </div>
+
+            <div id="card">
+                <div id="card-header">
+                    <h3>Shirt</h3>
+                </div>
+                <div id="card-body">
+                    <img src="assets/shirt.jpg" width="100%" height="200">
+                    <p>&#8377; 2000.66</p>
+                </div>
+                <div id="card-footer">
+                    <button> <span class="bi bi-cart4"></span> Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

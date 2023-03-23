@@ -1,0 +1,4 @@
+REST :- Representational State Transfer 
+It is a way to create API's.
+
+Express js => web framework -> nodejs

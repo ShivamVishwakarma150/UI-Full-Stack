@@ -1,0 +1,104 @@
+Tables in HTML
+==============
+
+-	Tables are used to organize the data in rows and columns. 
+-	HTML uses tables to present content in rows and columns. 
+-	Early version of HTML [4] used tables for designing entire document. 
+-	HTML 5 introduced new elements and attributes for designing tables.
+-	HTML 5 table elements are
+
+Element	Description
+<table>    :  It is a collection of rows and columns.
+<caption>  :  It sets caption for table. 
+<thead>    :  It defines the table header section.
+<tbody>	   :  It defines the table body section.
+<tfoot>	   :  It defines the table footer section.
+<th>	   :  It defines column heading content. 
+<tr>	   :  It defines the table row.
+<td>	   :  It defines the table cell content. 
+<colgroup> :  It groups a set of columns to define effects.
+
+
+<table>    :  start and end of table 
+<thead>    :  head section
+<tbody>	   :  body section.
+<tfoot>	   :  footer section
+<th>	   :  heading cell 
+<tr>	   :  row
+<td>	   :  normal cell  
+<colgroup> : groups the columns to define a style.
+<caption>  :  table caption  
+
+
+Table Attributes 
+=================
+
+1. frame, rules and border 
+
+    frame: It defined for entire table, it can have values
+    "box, rhs, lhs, above, below, void"
+
+    <table frame="box|rhs|lhs|above|below|void">
+
+
+    rules   : defined for rows, columns and groups. The values "rows, cols, groups, none"
+
+            <table rules="rows|cols|groups|none|all">
+
+    
+    border  : defined for cells. It have values 
+                0 [false] = no border
+                1 [true]  = border 
+
+            <table border="0|1">
+
+Note: 
+        Border can't display it table is configured with "rules" attribute.
+
+        you have to remove "rules" attribute from table to defined border.
+
+        The priority is given for rules.
+
+        If you configure both rules and border for table, then it will display only rules.
+
+
+2. cellspacing and cellpadding
+
+    cellspacing    : it sets space between cells in table.
+    cellpadding    : it sets space around table cell content.
+
+    <table cellspacing="20" cellpadding="10">
+
+3. background color and image 
+
+    bgcolor     : it sets background color for table, group, row, cell.
+    background  : it sets background image for table, group, row, cell.
+
+    <table bgcolor="red">
+    <thead bgcolor="red">
+    <tr bgcolor="red">
+    <td bgcolor="red">
+    <th bgcolor="red">
+
+    <table background="your_image_path">
+
+4. Alignments
+
+
+    align       : horizontally left, center, right or justified
+    valign      : vertically top,center and bottom.
+
+    <table align="" valign="">
+    <td align="" valign="">
+
+5. Width and Height 
+
+    width       : It defines width for table and cell 
+    height      : It defines height for table and cell or row.
+
+
+6. Merging of rows and columns 
+
+    colspan : It can merge multiple columns into single cell.
+    rowspan : It can merge multiple rows into single cell.
+    
